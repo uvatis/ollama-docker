@@ -44,7 +44,7 @@ services:
     environment: # https://docs.openwebui.com/getting-started/env-configuration#default_models
       - OLLAMA_BASE_URLS=http://host.docker.internal:7869 #comma separated ollama hosts
       - ENV=dev
-      - WEBUI_AUTH=True
+      - WEBUI_AUTH=False
       - WEBUI_NAME=valiantlynx AI
       - WEBUI_URL=http://localhost:8080
       - WEBUI_SECRET_KEY=glBNzDiA1CJ4hmTmdOevmTz1uKEmC3Uq9iN
